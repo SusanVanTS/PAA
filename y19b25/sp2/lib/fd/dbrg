@@ -1,0 +1,6 @@
+        01 RG-DATA.
+	   03 RG-FILENAME	PIC X(40) VALUE
+	      'Religion File'.
+	   03 RG-DATANAME	PIC X(40) VALUE
+	      '/z/y19b25/sp2/db/rg.db'.
+	   03 RG-STATUS		PIC X(02).

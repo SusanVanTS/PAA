@@ -1,0 +1,12 @@
+        FD RC-FILE
+	   LABEL RECORD STANDARD.
+
+      * FDRC - Race File.
+      * RC-KEY  : Use X(02).
+      * RC-NAME : Use X(20).
+
+        01 RC-REC.
+	   03 RC-KEY		PIC X(04).
+	   03 RC-DETAILS.
+	      05 RC-NAME	PIC X(30).
+	   03 RC-PADDING	PIC X(50).

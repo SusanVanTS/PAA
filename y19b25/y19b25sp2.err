@@ -1,0 +1,111 @@
+Runtime version 7.2.0
+Configuration file = '/etc/cblcps.g'
+Set variable 'EPS_001' to value '-P lp -s -d tpl1_P1'
+Set variable 'EPS_010' to value '-P lp -s -d dlk2_P1'
+Set variable 'EPS_020' to value '-P lp -s -d dlk3_P1'
+Set variable 'EPS_030' to value '-P lp -s -d tlk02_P1'
+Set variable 'EPS_040' to value '-P lp -s -d epps01'
+Set variable 'HPL_001' to value '-P lp -s -d fxp1_U1'
+Set variable 'HPL_010' to value '-P SPOOLER'
+Set variable 'HPL_020' to value '-P lp -s -d hpps01'
+Set variable 'HPL_030' to value '-P SPOOLER'
+Set variable 'HPL_040' to value '-P lp -s -d dlk1_U1'
+Set variable 'HPL_050' to value '-P SPOOLER'
+Set variable 'ZBR_001' to value '-P lp -s -d dlk1_P1'
+Set variable 'RFID_001' to value '-P lp -s -d rfid2'
+Set variable 'MSXPS' to value '-P SPOOLER'
+Set variable 'MSPDF' to value '-Q Microsoft Print to PDF; DIRECT=ON'
+Set variable 'P01' to value '-P lp -s -d tlk03_P1'
+Set keystroke to 'Edit=Backspace             kl'
+Set keystroke to 'Exception=10  k0'
+Set keystroke to 'Edit=Left    Exception=50  kl'
+Set keystroke to 'Edit=Right   Exception=51  kr'
+Set keystroke to 'Edit=Up      Exception=52  ku'
+Set keystroke to 'Edit=Down    Exception=53  kd'
+Set keystroke to '^C'
+Set keystroke to '^V'
+Set keystroke to '^Z'
+Set keystroke to 'HOT-KEY="/v/cps/hotkey/calendar"          A5   # Ctrl + 5'
+Set keystroke to 'HOT-KEY="/v/cps/hotkey/xrprt/xrefprt"     A6   # Ctrl + 6'
+Set keystroke to 'HOT-KEY="/v/cps/hotkey/xviewer"           A7   # Ctrl + 7'
+Set keystroke to 'HOT-KEY="/v/cps/sam/prg/hp/vwhelp"        A8   # Ctrl + 8'
+Set keystroke to 'HOT-KEY="/v/cps/hotkey/cal"               A9   # Ctrl + 9'
+Set keystroke to 'HOT-KEY="/v/cps/hotkey/xhotmenu"          A0   # Ctrl + 0'
+Set keystroke to 'HOT-KEY="/v/cps/hotkey/xviewer"           Mr   # Right click'
+Set keystroke to 'HOT-KEY="/v/cps/hotkey/xprtscr"           U2   # Shift + F6'
+Set menu item to 'HOT-KEY="/v/cps/lib/std/x-close"          100  # Close Window'
+Set keystroke to 'HOT-KEY='/u/cps/ctmgui/pine/hpsolb' A2'
+Set parameter 'CODE_PREFIX' to '/'
+Set parameter 'FILE_PREFIX' to '/'
+Set parameter 'CODE_SUFFIX' to 'obj'
+Set parameter 'APPLY_CODE_PATH' to TRUE
+Set parameter 'APPLY_FILE_PATH' to TRUE
+Set parameter 'FILENAME_SPACES' to FALSE
+Set parameter 'EXTRA_KEYS_OK' to TRUE
+Set parameter 'RECURSION' to TRUE
+Set parameter 'V_VERSION' to 3
+Set parameter 'MAX_FILES' to 128
+Set parameter 'MAX_LOCKS' to 2048
+Set parameter 'LOCKS_PER_FILE' to 2048
+Set parameter 'F10_IS_MENU' to FALSE
+Set parameter 'MOUSE_FLAGS' to 1023
+Set parameter 'JUSTIFY_NUM_FIELDS' to TRUE
+Set color model to '2'
+Loading map file 
+Unable to open TC-MAP-FILE '', error 0
+Set parameter 'DEFAULT_FONT' to 5
+Set parameter 'FONT_WIDE_SIZE_ADJUST' to 1
+Set parameter 'EF_WIDE_SIZE' to 50
+Set parameter 'QUIT_MODE' to 100
+Set parameter 'CODE_SYSTEM' to 4
+Set variable 'A_REMOVE_EMPTY_ERROR_FILE' to value '1'
+Set parameter 'LOG_DIR' to '/v/cps/rback/'
+Set parameter 'LOG_FILE' to '/v/cps/rback/default.log'
+Set variable 'TC_CHECK_ALIVE_INTERNAL' to value '600'
+Set variable 'PA_PLATFORM' to value 'AcuThinClient'
+Set variable 'PA_SYSTEM_PATH' to value '/v/cps'
+Set variable 'PA_VB_PATH' to value 'c:\pa\vb'
+Set variable 'PA_EXCEL_PATH' to value 'c:\pa\prt2x'
+Set variable 'PA_CHART_PATH' to value 'c:\pa\chart'
+Set variable 'PA_EMAIL_PATH' to value 'c:\pa\email'
+Set variable 'PA_PROG_LANGUAGE' to value '01'
+Set variable 'PA_RUN_MODE' to value 'N'
+Set variable 'PA_TEMP_ID' to value '(nil)'
+Set variable 'PA_USER_ID' to value '(nil)'
+Set variable 'PA_COMPNAME' to value '(nil)'
+Set variable 'PA_PRT_DATANAME' to value '(nil)'
+Set variable 'PA_STG1_PREFIX' to value '/t'
+Set variable 'PA_STG2_PREFIX' to value '/t2'
+Set variable 'PA_FILE_SYSTEM' to value '/'
+Set variable 'PA_PRTWIZ_PATH' to value '\\128.0.0.223\pa\prtwiz'
+Set variable 'PA_PRTWIZ_EXE' to value '\\128.0.0.223\pa\printwizard4\printwiz.exe'
+Set variable 'PA_PRTWIZ_PROFILE_PATH' to value '\\128.0.0.223\pa\printwizard4\profile\'
+Set variable 'PA_PRTWIZ_PDF_PATH' to value '\\128.0.0.223\pa\pdf\'
+Set variable 'PA_PRTWIZ_WIN_SERVICE' to value '1'
+Set variable 'GRIDC_COLOR' to value '0'
+Set variable 'GRIDC_HEADER' to value '144'
+Set variable 'GRIDC_HEADER_DIV' to value '1'
+Set variable 'GRIDC_END' to value '1'
+Set variable 'GRIDC_DIVIDER' to value '9'
+Set variable 'GRIDC_CURSOR' to value '0'
+Set variable 'GRIDC_REGION' to value '480'
+Set variable 'GRIDC_ROW_PATT1' to value '512'
+Set variable 'GRIDC_ROW_PATT2' to value '512'
+Set variable 'GRIDC_ROW' to value '353'
+Set variable 'GRIDC_COL' to value '0'
+Set variable 'GRIDC_CELL' to value '0'
+Try loading '/z/y19b25/sp2/prg/main.obj'...
+/z/y19b25/sp2/prg/main.obj loaded
+Try loading '/v/cps/lib/std/f-gtcoid.obj'...
+/v/cps/lib/std/f-gtcoid.obj loaded
+Set variable 'PA_USER_ID' to value 'root'
+Try loading '/z/y19b25/sp2/lib/std/x-scrcp.obj'...
+/z/y19b25/sp2/lib/std/x-scrcp.obj loaded
+Set variable 'PA_USER_ID' to value 'y19b25'
+Try loading '/z/y19b25/sp2/prg/scmenu.obj'...
+/z/y19b25/sp2/prg/scmenu.obj loaded
+Try loading '/v/cps/lib/std/f-gtcoid.obj'...
+/v/cps/lib/std/f-gtcoid.obj loaded
+Try loading '/z/y19b25/sp2/lib/std/x-scrcp.obj'...
+/z/y19b25/sp2/lib/std/x-scrcp.obj loaded
+Set variable 'PA_USER_ID' to value 'y19b25'

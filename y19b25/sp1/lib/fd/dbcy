@@ -1,0 +1,6 @@
+        01 CY-DATA.
+	   03 CY-FILENAME	PIC X(40) VALUE
+	      'Country File'.
+	   03 CY-DATANAME	PIC X(40) VALUE
+	      '/z/y19b25/sp1/db/cy.db'.
+	   03 CY-STATUS		PIC X(02).

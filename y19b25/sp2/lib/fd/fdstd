@@ -1,0 +1,29 @@
+        FD STD-FILE
+	   LABEL RECORD STANDARD.
+
+      * FDSTD - Student File.
+      * STD-KEY  : Use X(06).
+      * STD-NAME : Use X(40).
+      * STD-ADD1 : Use X(40).
+      * STD-ADD2 : Use X(40).
+      * STD-ADD3 : Use X(40).
+      * M-Male, F-Female.
+
+        01 STD-REC.
+	   03 STD-KEY		PIC X(08).
+	   03 STD-DETAILS.
+	      05 STD-NAME	PIC X(50).
+	      05 STD-ADD.
+ 		 07 STD-ADD1	PIC X(50).
+		 07 STD-ADD2    PIC X(50).
+		 07 STD-ADD3    PIC X(50).
+	      05 STD-GENDER     PIC X(01).
+	      05 STD-DOB-DMY    PIC 9(08).
+	      05 STD-HEIGHT	PIC 999V99.
+	      05 STD-WEIGHT	PIC 999V99.
+	      05 STD-CY-KEY     PIC X(04).
+	      05 STD-RC-KEY     PIC X(04).
+	      05 STD-RG-KEY	PIC X(04).
+	      05 STD-EMAIL      PIC X(30).
+	      05 STD-MOBILE     PIC X(30).
+	    03 STD-PADDING	PIC X(66).

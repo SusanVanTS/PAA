@@ -1,0 +1,6 @@
+        01 STD-DATA.
+	   03 STD-FILENAME	PIC X(40) VALUE
+	      'Student File'.
+	   03 STD-DATANAME	PIC X(40) VALUE
+	      '/z/y19b25/sp1/db/std.db'.
+	   03 STD-STATUS		PIC X(02).

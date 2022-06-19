@@ -1,0 +1,12 @@
+        FD CY-FILE
+	   LABEL RECORD STANDARD.
+
+      * FDCY - Country File.
+      * CY-KEY  : Use X(02).
+      * CY-NAME : Use X(20).
+
+        01 CY-REC.
+	   03 CY-KEY		PIC X(04).
+	   03 CY-DETAILS.
+	      05 CY-NAME	PIC X(30).
+	   03 CY-PADDING	PIC X(50).

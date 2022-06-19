@@ -1,0 +1,8 @@
+        FD RG-FILE
+	   LABEL RECORD STANDARD.
+
+        01 RG-REC.
+	   03 RG-KEY		PIC X(04).
+	   03 RG-DETAILS.
+	      05 RG-NAME	PIC X(30).
+	   03 RG-PADDING	PIC X(50).

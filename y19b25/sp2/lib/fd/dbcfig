@@ -1,0 +1,6 @@
+        01 CFIG-DATA.
+	   03 CFIG-FILENAME	PIC X(40) VALUE
+	      'System Configuration File'.
+	   03 CFIG-DATANAME	PIC X(40) VALUE
+	      '/z/y19b25/sp2/db/cfig.db'.
+	   03 CFIG-STATUS		PIC X(02).

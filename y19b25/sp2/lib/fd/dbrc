@@ -1,0 +1,6 @@
+        01 RC-DATA.
+	   03 RC-FILENAME	PIC X(40) VALUE
+	      'Race File'.
+	   03 RC-DATANAME	PIC X(40) VALUE
+	      '/z/y19b25/sp2/db/rc.db'.
+	   03 RC-STATUS		PIC X(02).

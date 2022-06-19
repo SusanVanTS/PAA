@@ -1,0 +1,6 @@
+        01 LOCK-DATA.
+	   03 LOCK-FILENAME	PIC X(40) VALUE
+	      'Lock File'.
+	   03 LOCK-DATANAME	PIC X(40) VALUE
+	      '/z/y19b25/sp2/db/lock.db'.
+	   03 LOCK-STATUS		PIC X(02).

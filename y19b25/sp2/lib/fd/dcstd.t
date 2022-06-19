@@ -1,0 +1,6 @@
+        STD-T-FILE-HANDLING SECTION.
+	   USE AFTER STANDARD ERROR PROCEDURE ON STD-T-FILE.
+	   CALL '/v/cps/lib/std/f-status' USING STD-T-DATA.
+	   CANCEL '/v/cps/lib/std/f-status'.
+	   IF S-RUN = 'Y' MOVE 'Y' TO S-STATUS-CHECK
+	   ELSE EXIT PROGRAM STOP RUN.

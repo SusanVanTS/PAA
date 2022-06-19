@@ -1,0 +1,18 @@
+1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+M00                                                                                                #
+M10                                                                                                #
+M20                                                                                                #
+M30 0198737075                         #
+M40 COKA COLA MALAYSIA                                                                             #
+M40                                                                                                #
+M40 Please to be informed we have ship out:                                                        #
+M40 1. PO#123 | Model ABC | Qty 1,000                                                              #
+M40 2. PO#123 | Model XYZ | Qty 2,000                                                              #
+M40 3. PO#994 | Model XAA | Qty 3,000                                                              #
+M40 Lorry Number: ABC 4857                                                                         #
+M40 Departure: 20/08/2019 Tue, 14:00                                                               #
+M40 Arrival: 20/08/2019 Tue, 16:45 EST                                                             #
+M40	                                                                                               #
+M40 Thank you                                                                                      #
+M40 Muda Packaging Industries (Logistic Department)                                                #
+M50 C:\Users\Asus\Desktop\UKM\LI_TECHNICAL_REPORT_LAST.pdf                                                          #
